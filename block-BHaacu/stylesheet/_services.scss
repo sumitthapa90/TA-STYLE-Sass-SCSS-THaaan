@@ -1,0 +1,39 @@
+.products {
+  background-color: rgb(240, 235, 235);
+  .para{
+      text-align: center;
+  }
+ 
+  .product-icon{
+      padding-left: 6rem;
+      padding-right: 6rem;
+  }
+  h2 {
+    font-size: 2rem;
+    font-family: "Alfa Slab One", cursive;
+    margin-top: 5rem;
+    padding-top: 4rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  h4{
+      font-size: 1.3rem;
+      font-weight: 600;
+      margin-top: 1rem;
+  }
+  p {
+    padding-bottom: 4rem;
+    margin-top: 1rem;
+   
+  }
+
+  .icon-1 {
+    width: 33%;
+  }
+  hr{
+      width: 85%;
+  }
+
+}
+
