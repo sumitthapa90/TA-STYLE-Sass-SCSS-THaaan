@@ -36,28 +36,26 @@
 }
 
 .form-box {
-
-  a{
+  a {
     text-decoration: none;
     border-radius: 2rem;
     color: white;
-    background-color:#dc3c45; 
+    background-color: #dc3c45;
     padding: 1.2rem;
     margin-top: 2rem;
     display: inline-block;
-  margin-left: 7rem;
-  margin-bottom: 3rem;
+    margin-left: 7rem;
+    margin-bottom: 3rem;
   }
   width: 50%;
 
   input {
     margin-bottom: 1rem;
-    padding: .9rem 0;
+    padding: 0.9rem 0;
     font-size: 0.9rem;
     width: 400px;
     border-radius: 3px;
     border: 1px solid rgb(235, 235, 235);
-
   }
   textarea {
     width: 70%;
