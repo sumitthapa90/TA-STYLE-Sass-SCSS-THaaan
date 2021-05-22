@@ -186,6 +186,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-top: 2rem;
 }
 
 header {
@@ -634,7 +635,7 @@ article i {
 
 .form-box input {
   margin-bottom: 1rem;
-  padding: .9rem 0;
+  padding: 0.9rem 0;
   font-size: 0.9rem;
   width: 400px;
   border-radius: 3px;
@@ -658,6 +659,10 @@ article i {
   font-family: "Alfa Slab One", cursive;
   padding-top: 4rem;
   padding-bottom: 2rem;
+}
+
+.sec-4 {
+  margin-bottom: 4rem;
 }
 
 .products {
@@ -699,5 +704,124 @@ article i {
 
 .products hr {
   width: 85%;
+}
+
+.deals {
+  background-color: #dc3c45;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem 0;
+}
+
+.deals span {
+  display: inline-block;
+  margin-top: 2rem;
+}
+
+.deals a {
+  display: inline-block;
+  margin-top: 2rem;
+  background-color: white;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-decoration: none;
+  color: white;
+  background-color: #dc3c45;
+  border-radius: 1.5rem;
+  border: 1px solid white;
+}
+
+.best-award h4 {
+  font-size: 2rem;
+  font-family: "Alfa Slab One", cursive;
+  margin-bottom: 1rem;
+}
+
+.best-award p {
+  padding: 0.5rem 0;
+}
+
+.pricing {
+  text-align: center;
+  width: 25%;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  background-color: white;
+  border: 1px solid #c9c7c7;
+}
+
+.pricing h4 {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+}
+
+.pricing span {
+  font-size: 1.5rem;
+  font-family: "Alfa Slab One", cursive;
+  margin-bottom: 1.5rem;
+  display: inline-block;
+}
+
+.pricing h5 {
+  font-size: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.pricing li {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.pricing a {
+  text-decoration: none;
+  border-radius: 2rem;
+  border: 1px solid #dc3c45;
+  display: inline-block;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  padding: 0.7rem;
+  color: #dc3c45;
+}
+
+.pricing .red {
+  background-color: #dc3c45;
+  color: white;
+}
+
+.Faq {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.Faq h2 {
+  font-size: 2rem;
+  font-family: "Alfa Slab One", cursive;
+  margin-bottom: 1rem;
+}
+
+.Faq p {
+  margin-bottom: 3rem;
+}
+
+.questions {
+  border: 1px solid gray;
+  width: 40%;
+  padding: 2rem;
+  margin: 1rem 0;
+}
+
+.questions span {
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.questions p {
+  font-size: 0.9rem;
+  color: #9c9a9a;
 }
 /*# sourceMappingURL=style.css.map */
