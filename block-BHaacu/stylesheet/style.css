@@ -1,0 +1,871 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 2rem;
+  margin: 0 auto;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.justify-content-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.align-items-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex-sb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flex-sa {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.flex-27 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 27%;
+          flex: 0 1 27%;
+}
+
+.aline-center {
+  text-align: center;
+}
+
+.aline-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 2rem;
+}
+
+html {
+  font-size: 16px;
+}
+
+.box-btn {
+  text-align: center;
+}
+
+header {
+  background-color: #dc3c45;
+  color: white;
+  padding: 2rem 0;
+}
+
+header .icon {
+  margin-left: 2rem;
+}
+
+header .icon i:hover {
+  color: black;
+}
+
+strong {
+  font-size: 2rem;
+  color: #dc3c45;
+  font-family: "Open Sans", sans-serif;
+}
+
+.span-class {
+  font-size: 2rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.span-class:hover {
+  color: white;
+}
+
+.sub-heading {
+  background-color: #f2f2f2;
+  padding: 0 1.5rem;
+}
+
+.sub-heading a {
+  display: inline-block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  color: black;
+  align-items: center;
+  padding: 1rem;
+}
+
+.sub-heading a:hover {
+  background-color: #e29fa3;
+  border: 1px solid #e29fa3;
+}
+
+.box1 {
+  padding: 2rem 1rem;
+}
+
+.box1 svg {
+  width: 4rem;
+  height: 4rem;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+}
+
+.hero img {
+  width: 100%;
+}
+
+.heading {
+  position: absolute;
+  top: 27rem;
+  left: 10rem;
+  width: 40%;
+}
+
+.heading h1 {
+  font-size: 3rem;
+  font-family: "Alfa Slab One", cursive;
+  margin-bottom: 2rem;
+}
+
+.heading a {
+  background-color: #dc3c45;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-decoration: none;
+  color: white;
+  border-radius: 1.5rem;
+}
+
+.heading p {
+  margin-bottom: 2rem;
+  word-spacing: 2px;
+}
+
+.box1 figure {
+  text-align: center;
+}
+
+.sub-heading-2 h2 {
+  font-size: 1.5rem;
+  font-family: "Alfa Slab One", cursive;
+  text-align: center;
+  padding-left: 3rem;
+  margin-top: 3rem;
+}
+
+.sub-heading-2 p {
+  margin-top: 2rem;
+  color: #aaa5a5;
+  margin-bottom: 4rem;
+  word-spacing: 2px;
+}
+
+.sub-heading-2 .box1 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 30%;
+          flex: 0 1 30%;
+  border-radius: 1rem;
+  border: 1px solid gray;
+  margin-bottom: 3rem;
+}
+
+.sub-heading-2 h3 {
+  text-align: center;
+}
+
+.sub-heading-2 .center {
+  text-align: center;
+}
+
+.sub-heading-2 a {
+  background-color: white;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-decoration: none;
+  color: #dc3c45;
+  border-radius: 1.5rem;
+  border: 1px solid #dc3c45;
+}
+
+.sub-heading-2 p {
+  text-align: center;
+  word-spacing: 2px;
+}
+
+.sub-heading-3 {
+  text-align: center;
+  background-color: #eaebee;
+  padding-top: 3rem;
+}
+
+.sub-heading-3 h4 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.sub-heading-3 a {
+  background-color: white;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-decoration: none;
+  color: #dc3c45;
+  border-radius: 1.5rem;
+  border: 1px solid #dc3c45;
+  margin-top: 2rem;
+  display: inline-block;
+  margin-bottom: 3rem;
+}
+
+.sub-heading-3 p {
+  margin: 0 auto;
+  padding: 0.5rem;
+  word-spacing: 2px;
+}
+
+.sec-4 .sec-4-box1 {
+  text-align: center;
+  width: 50%;
+  margin-bottom: 3rem;
+}
+
+.sec-4 i {
+  font-size: 4rem;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  color: #dc3c45;
+}
+
+.sec-4 a {
+  background-color: white;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-decoration: none;
+  color: #dc3c45;
+  border-radius: 1.5rem;
+  border: 1px solid #dc3c45;
+  margin-top: 2rem;
+  display: inline-block;
+}
+
+.sec-4 h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.sec-4 p {
+  margin-bottom: 2rem;
+  color: #a7a4a4;
+  word-spacing: 2px;
+  text-align: left;
+}
+
+.sec-4 .sec-4-box2 {
+  width: 50%;
+}
+
+.sec-4 img {
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.sec-5 {
+  margin-top: 4rem;
+  background-color: #dc3c45;
+  color: white;
+}
+
+.sec-5 .request-Quote {
+  width: 90%;
+  background-color: #dc3c45;
+  margin-top: 2rem;
+  margin: 0 auto;
+  padding: 3rem;
+}
+
+.sec-5 span {
+  font-size: 1.3rem;
+}
+
+.sec-5 p {
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  word-spacing: 2px;
+}
+
+.sec-5 a {
+  text-decoration: none;
+  color: white;
+  border-radius: 1.5rem;
+  border: 1px solid #dc3c45;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #dc3c45;
+  padding: 1rem;
+  display: inline-block;
+  border: 1px solid white;
+}
+
+.clints-sec {
+  margin-bottom: 3rem;
+}
+
+.clints-sec h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  font-family: "Alfa Slab One", cursive;
+  margin-top: 2rem;
+}
+
+.clints-sec img {
+  width: 90%;
+  margin-top: 2rem;
+}
+
+footer {
+  background-color: #343a40;
+  color: #aca5a5;
+  padding: 2rem 0;
+  font-size: 0.9rem;
+}
+
+footer li {
+  margin-bottom: 1.5rem;
+  font-size: 0.8rem;
+}
+
+footer li:hover {
+  color: white;
+}
+
+footer i {
+  margin-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.8rem;
+}
+
+footer i:hover {
+  color: white;
+}
+
+footer h6 {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 12px;
+  }
+  .flex-direction-medium {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+.about {
+  background-color: #dc3c45;
+  color: white;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.about h2 {
+  font-size: 2rem;
+  font-family: "Alfa Slab One", cursive;
+  margin-bottom: 2rem;
+}
+
+article .mission .mission1 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 30%;
+          flex: 0 1 30%;
+  padding: 2rem 0;
+}
+
+article .mission .svg-file {
+  width: 50%;
+}
+
+article i {
+  font-size: 2rem;
+  margin-right: 2rem;
+}
+
+.left {
+  text-align: left;
+  width: 50%;
+  margin-bottom: 3rem;
+  margin-top: 5rem;
+}
+
+.left span {
+  color: red;
+}
+
+.left h2 {
+  margin-top: 2rem;
+}
+
+.team-members {
+  padding: 5rem 0;
+  margin: 2rem 0rem;
+  background-color: #f8f8f8;
+}
+
+.team-members h4 {
+  font-size: 2rem;
+  font-family: "Alfa Slab One", cursive;
+  margin-top: 2rem;
+  display: inline-block;
+  text-align: center;
+}
+
+.team-members .team {
+  text-align: center;
+}
+
+.team-members p {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.team-members img {
+  width: 100%;
+}
+
+.team-members span {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: #dc3c45;
+}
+
+.team-members .image-box-1 {
+  text-align: center;
+  width: 20%;
+  background-color: white;
+  margin-bottom: 2rem;
+}
+
+.sec-contact {
+  background-color: #ebebeb;
+  padding-bottom: 2rem;
+}
+
+.sec-contact .contact-p {
+  padding-top: 5rem;
+}
+
+.sec-contact p {
+  text-align: center;
+}
+
+.sec-contact .parent-div i {
+  width: 4rem;
+  height: 4rem;
+  font-size: 2rem;
+  border-radius: 50%;
+  border: 1px solid;
+  color: #dc3c45;
+  background-color: white;
+  margin-top: 3rem;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.sec-contact .parent-div h3 {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.sec-contact .contact-icon {
+  text-align: center;
+}
+
+.sec-contact p {
+  margin-bottom: 2rem;
+}
+
+.form-box {
+  width: 50%;
+}
+
+.form-box a {
+  text-decoration: none;
+  border-radius: 2rem;
+  color: white;
+  background-color: #dc3c45;
+  padding: 1.2rem;
+  margin-top: 2rem;
+  display: inline-block;
+  margin-left: 7rem;
+  margin-bottom: 3rem;
+}
+
+.form-box input {
+  margin-bottom: 1rem;
+  padding: 0.9rem 0;
+  font-size: 0.9rem;
+  width: 400px;
+  border-radius: 3px;
+  border: 1px solid #ebebeb;
+}
+
+.form-box textarea {
+  width: 70%;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  border-radius: 3px;
+  border: 1px solid #ebebeb;
+}
+
+.sec-contact .error {
+  text-align: center;
+}
+
+.sec-contact h2 {
+  font-size: 1.5rem;
+  font-family: "Alfa Slab One", cursive;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+.sec-4 {
+  margin-bottom: 4rem;
+}
+
+.products {
+  background-color: #f0ebeb;
+}
+
+.products .para {
+  text-align: center;
+}
+
+.products .product-icon {
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+.products h2 {
+  font-size: 2rem;
+  font-family: "Alfa Slab One", cursive;
+  margin-top: 5rem;
+  padding-top: 4rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.products h4 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.products p {
+  padding-bottom: 4rem;
+  margin-top: 1rem;
+}
+
+.products .icon-1 {
+  width: 33%;
+}
+
+.products hr {
+  width: 85%;
+}
+
+.deals {
+  background-color: #dc3c45;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem 0;
+}
+
+.deals span {
+  display: inline-block;
+  margin-top: 2rem;
+}
+
+.deals a {
+  display: inline-block;
+  margin-top: 2rem;
+  background-color: white;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-decoration: none;
+  color: white;
+  background-color: #dc3c45;
+  border-radius: 1.5rem;
+  border: 1px solid white;
+}
+
+.best-award h4 {
+  font-size: 2rem;
+  font-family: "Alfa Slab One", cursive;
+  margin-bottom: 1rem;
+}
+
+.best-award p {
+  padding: 0.5rem 0;
+}
+
+.pricing {
+  text-align: center;
+  width: 25%;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  background-color: white;
+  border: 1px solid #c9c7c7;
+}
+
+.pricing h4 {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+}
+
+.pricing span {
+  font-size: 1.5rem;
+  font-family: "Alfa Slab One", cursive;
+  margin-bottom: 1.5rem;
+  display: inline-block;
+}
+
+.pricing h5 {
+  font-size: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.pricing li {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.pricing a {
+  text-decoration: none;
+  border-radius: 2rem;
+  border: 1px solid #dc3c45;
+  display: inline-block;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  padding: 0.7rem;
+  color: #dc3c45;
+}
+
+.pricing .red {
+  background-color: #dc3c45;
+  color: white;
+}
+
+.Faq {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.Faq h2 {
+  font-size: 2rem;
+  font-family: "Alfa Slab One", cursive;
+  margin-bottom: 1rem;
+}
+
+.Faq p {
+  margin-bottom: 3rem;
+}
+
+.questions {
+  border: 1px solid gray;
+  width: 40%;
+  padding: 2rem;
+  margin: 1rem 0;
+}
+
+.questions span {
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.questions p {
+  font-size: 0.9rem;
+  color: #9c9a9a;
+}
+/*# sourceMappingURL=style.css.map */

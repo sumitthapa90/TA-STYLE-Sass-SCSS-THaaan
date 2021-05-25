@@ -1,0 +1,75 @@
+.about {
+  background-color: #dc3c45;
+  color: white;
+  text-align: center;
+  padding: 2rem 0;
+  h2 {
+    font-size: 2rem;
+    font-family: "Alfa Slab One", cursive;
+    margin-bottom: 2rem;
+  }
+}
+article {
+  .mission {
+    .mission1 {
+      flex: 0 1 30%;
+
+      padding: 2rem 0;
+    }
+    .svg-file {
+      width: 50%;
+    }
+  }
+  i {
+    font-size: 2rem;
+    margin-right: 2rem;
+  }
+}
+.left {
+  text-align: left;
+  width: 50%;
+  margin-bottom: 3rem;
+  margin-top: 5rem;
+  span {
+    color: red;
+  }
+  h2 {
+    margin-top: 2rem;
+  }
+}
+.team-members {
+padding: 5rem 0;
+  margin: 2rem 0rem;
+  background-color: rgb(248, 248, 248);
+  h4 {
+    font-size: 2rem;
+    font-family: "Alfa Slab One", cursive;
+    margin-top: 2rem;
+    display: inline-block;
+    text-align: center;
+  }
+  .team {
+    text-align: center;
+  }
+  p {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  img {
+    width: 100%;
+  }
+  span {
+    display: inline-block;
+    margin-bottom: 1rem;
+    color: #dc3c45;
+   
+  }
+  .image-box-1 {
+    text-align: center;
+
+    width: 20%;
+    background-color: white;
+    margin-bottom: 2rem;
+  }
+}

@@ -1,0 +1,74 @@
+
+
+.pricing {
+  text-align: center;
+  width: 25%;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+
+  background-color: white;
+  border: 1px solid rgb(201, 199, 199);
+  h4 {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+  }
+  span {
+    font-size: 1.5rem;
+    font-family: "Alfa Slab One", cursive;
+    margin-bottom: 1.5rem;
+    display: inline-block;
+  }
+  h5 {
+    font-size: 0.8rem;
+    margin-bottom: 1.5rem;
+  }
+  li {
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+  }
+  a {
+    text-decoration: none;
+    border-radius: 2rem;
+    border: 1px solid #dc3c45;
+    display: inline-block;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding: 0.7rem;
+    color: #dc3c45;
+  }
+  .red {
+    background-color: #dc3c45;
+    color: white;
+  }
+}
+
+.Faq {
+  text-align: center;
+  margin-top: 4rem;
+  h2 {
+    font-size: 2rem;
+    font-family: "Alfa Slab One", cursive;
+    margin-bottom: 1rem;
+  }
+  p {
+    margin-bottom: 3rem;
+  }
+}
+
+.questions {
+  border: 1px solid gray;
+  width: 40%;
+  padding: 2rem;
+  margin: 1rem 0;
+
+  span {
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  p {
+    font-size: 0.9rem;
+    color: rgb(156, 154, 154);
+  }
+}
