@@ -1,4 +1,6 @@
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 body {
@@ -15,12 +17,16 @@ body {
 .flex {
   display: flex;
 }
+.justify-content-center {
+  justify-content: center;
+}
+.align-items-center {
+  align-items: center;
+}
 .flex-sb {
-  display: flex;
   justify-content: space-between;
 }
 .flex-sa {
-  display: flex;
   justify-content: space-around;
 }
 
@@ -34,7 +40,12 @@ body {
   align-items: center;
   padding-top: 2rem;
 }
-
+html {
+  font-size: 16px;
+}
+.box-btn {
+  text-align: center;
+}
 header {
   background-color: #dc3c45;
   color: white;
@@ -79,6 +90,13 @@ strong {
     padding: 1rem;
   }
 }
+.box1 {
+  padding: 2rem 1rem;
+  svg {
+    width: 4rem;
+    height: 4rem;
+  }
+}
 .hero {
   position: relative;
   width: 100%;
@@ -112,12 +130,16 @@ strong {
     word-spacing: 2px;
   }
 }
+.box1 figure {
+  text-align: center;
+}
 
 .sub-heading-2 {
   h2 {
     font-size: 1.5rem;
     font-family: "Alfa Slab One", cursive;
     text-align: center;
+    padding-left: 3rem;
     margin-top: 3rem;
   }
   p {
@@ -130,14 +152,10 @@ strong {
 
 .sub-heading-2 {
   .box1 {
-    width: 20%;
-    height: 390px;
+    flex: 0 1 30%;
     border-radius: 1rem;
     border: 1px solid gray;
     margin-bottom: 3rem;
-  }
-  .hovered-paths {
-    margin-left: 5rem;
   }
   h3 {
     text-align: center;
@@ -154,7 +172,6 @@ strong {
     color: #dc3c45;
     border-radius: 1.5rem;
     border: 1px solid #dc3c45;
-    margin-left: 5rem;
   }
   p {
     text-align: center;
@@ -308,5 +325,18 @@ footer {
     margin-bottom: 1.5rem;
     font-size: 1.1rem;
     font-weight: 600;
+  }
+}
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 12px;
+  }
+  .flex-direction-medium {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 640px) {
+  html {
+    font-size: 10px;
   }
 }
